@@ -1,0 +1,4 @@
+# Optional: the offline suite in tests/ needs only Python 3.10 or newer.
+# Add these to also lint the contract and run it in GenVM Direct Mode.
+genvm-linter
+genlayer-test

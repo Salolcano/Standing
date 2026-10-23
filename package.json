@@ -1,0 +1,14 @@
+{
+  "name": "standing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "node deploy/deploy.mjs",
+    "smoke": "node deploy/smoke.mjs",
+    "test": "python3 -m unittest discover -s tests -t ."
+  },
+  "dependencies": {
+    "genlayer-js": "2.0.0-rc.1"
+  }
+}
